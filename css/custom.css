@@ -1,18 +1,50 @@
 /* CUSTOM VISUAL EFFECTS */
 
 /* STEP 6: Set the base font for body copy */
+:root {
+/* Base font for body copy */
+  --bs-body-font-family: "VT323", monospace;
+  --bs-body-font-size: 1.5rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.6;
+ 
 
 
 /* STEP 8: Set primary and secondary theme colours */
-
+ /* Primary and secondary colours */
+  --bs-primary: #FFB347;
+  --bs-primary-rgb: 255, 179, 71;
+  --bs-secondary: #FFD1DC;
+  --bs-secondary-rgb: 255, 209, 220; 
 /* STEP 9: Set default text colour and background colour of the page body */
-
+ /* Default text colour and body background colour */
+  --bs-body-color: #FFFFFF;
+  --bs-body-bg: #000000;
 /* STEP 10: Add a few more variables for Bootstrap colour classes, then proceed to index.html for next step */
+ /* Overriding other Bootstrap colour classes */
+  --bs-dark: #000000;
+  --bs-dark-rgb: 0, 0, 0;
+  --bs-light: #FFD1DC;
+  --bs-light-rgb: 255, 209, 220;
+  --bs-info: #FFFFFF;
+  --bs-info-rgb: 140, 140, 140;
 
+}
 
 /* STEP 7: Set the font for the headings */
 
-
+/* Fonts for Headings
+-------------------------------------------------- */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
 
 /* Other Details
 -------------------------------------------------- */
